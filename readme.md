@@ -18,7 +18,7 @@ This code challenge does not involve any use of database connections. Therefore,
 
 ### Restrictions and Requirements
 1. Please do **NOT** use any JS/AJAX to solve this challenge but build it in PHP. 
-1. You can use any libraries you can find.
+1. Please do **NOT** use any Spotify-Specific libraries but use an API-agnostic library such as [Guzzle](http://docs.guzzlephp.org/en/stable/) or [HTTPlug](http://docs.php-http.org/en/latest/httplug/tutorial.html)
 1. This challenge doesn't focus on the UI. Do not spend too much time on layout/css.
 1. You should focus on code quality and structure. If possible and timely reasonable, also add tests.
 1. Wherever possible and reasonable, try to follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID)
@@ -41,5 +41,3 @@ This repository has been set up for you to start right away. In case you are not
 - A first controller can be found here: `app/Http/Controllers/SearchController.php`.
 - The views can be found under `resources/views`.
 - Publicly accessible assets can be placed into the `public/` folder and its sub-directories.
-- When communicating with the API, consider using a library such as [Guzzle](http://docs.guzzlephp.org/en/stable/) or [HTTPlug](http://docs.php-http.org/en/latest/httplug/tutorial.html)
-
