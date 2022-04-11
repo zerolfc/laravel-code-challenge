@@ -30,7 +30,7 @@ Implement the following functionality by using the official Spotify Developer's 
 
 1. When a user searches for any term in the search box (see `index.blade.php`), the result should be three separate lists: one list with matching artists, one with matching albums and one with tracks.
 
-1. Each result in the lists should consist of an image and a title (name of artist, album or track respectively). Each result should be clickable and lead to another page which contains some more detailed information about the clicked item.
+1. OPTIONAL (you can let the results list as-is if you don't have time) Each result in the lists should consist of an image and a title (name of artist, album or track respectively). Each result should be clickable and lead to another page which contains some more detailed information about the clicked item.
 
 
 ### Hints
