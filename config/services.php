@@ -44,4 +44,11 @@ return [
         ],
     ],
 
+    'spotify' => [
+        'id' => env('SPOTIFY_ID'),
+        'secret' => env('SPOTIFY_SECRET'),
+        'api_url' => env('SPOTIFY_URL', 'https://api.spotify.com/v1'),
+        'account_url' => env('SPOTIFY_URL', 'https://accounts.spotify.com/api/token'),
+    ]
+
 ];

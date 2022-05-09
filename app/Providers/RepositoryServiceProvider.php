@@ -2,13 +2,14 @@
 
 namespace App\Providers;
 
+use App\Repositories\{Spotify, SpotifyContract};
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Blade;
 
-class AppServiceProvider extends ServiceProvider
+class RepositoryServiceProvider extends ServiceProvider
 {
+
     /**
-     * Register any application services.
+     * Register services.
      *
      * @return void
      */
@@ -18,14 +19,14 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Bootstrap any application services.
+     * Bootstrap services.
      *
      * @return void
      */
     public function boot()
     {
 
-        Blade::component('components.items', 'items');
+        $this->app->bind(SpotifyContract::class, Spotify::class);
 
     }
 }
